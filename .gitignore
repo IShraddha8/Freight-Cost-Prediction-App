@@ -1,0 +1,15 @@
+# big / local-only files (the app does NOT need the database at runtime)
+data/
+DATABASE/
+*.db
+
+# python / jupyter junk
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+.venv/
+.env
+.vscode/
+freight_cost_prediction/
+inference/predict_fright.py
